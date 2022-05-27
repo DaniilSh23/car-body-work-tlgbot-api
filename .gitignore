@@ -1,0 +1,7 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+/tlg_bot/__pycache__/
+/tlg_bot/migrations/__pycache__/
+/djangobot/__pycache__/
+
