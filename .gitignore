@@ -4,4 +4,5 @@
 /tlg_bot/__pycache__/
 /tlg_bot/migrations/__pycache__/
 /djangobot/__pycache__/
+/*.sqlite3
 
