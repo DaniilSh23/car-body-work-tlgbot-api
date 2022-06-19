@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from cafe_api.models import MediaForItems, Categories, Items, OrderBasket, Order, PaidOrder, OrderArchive
+from .models import MediaForItems, Categories, Items, OrderBasket, Order, PaidOrder, OrderArchive
 
 
 class CategoriesAdmin(admin.ModelAdmin):
