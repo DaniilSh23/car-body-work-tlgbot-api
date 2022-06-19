@@ -143,6 +143,11 @@ DEFAULT_PERMISSION_CLASSES = [
     'rest_framework.permissions.AllowAny',
 ]
 
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 5
+}
+
 '''Всё, что ниже (и немного выше пару строк) подтянуто при настройке для деплоя на Heroku'''
 # Heroku: Update database configuration from $DATABASE_URL.
 import dj_database_url
